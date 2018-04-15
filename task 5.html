@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>11</title>
+<style>
+*{margin:0px; padding: 0px;}
+body{background: #E1E1E1;}
+/*各小块样式*/
+.article{background: white; padding: 30px; margin: 10px;}
+.solid_border
+{	border-style: solid;
+    border-width: 1px 3px 3px 1px;/*阴影立体效果*/	
+    border-color:darkgray;
+}
+/**/
+.picture{
+	width:200px;
+	height:200px; 
+	border:1px solid green; 
+	text-align:center; 
+	margin:5px;
+}
+table{
+	border-collapse:collapse;
+	margin:10px;
+}
+tr td{
+width:100px;
+border:1px solid blue;
+}
+.tr_color{background:#FFB6C1;}
+.textarea_color{color:#cccccc;}   		/*字体颜色*/
+.submit_color{
+	width:100%;
+	height:50px; 
+	color:blue; 
+	background:#FFB6C1;
+}
+#sizebar div.line{line-height: 2em;}
+#sizebar{
+	float: right;
+    margin-left: 0px;
+    padding: 10px 20px;
+    width: 30%;
+}
+#sizebar textarea{
+	width: 70%; 
+	margin-left: 65px;
+}
+#content{overflow: auto;}
+</style>		
+</head>
+
+<body>
+<div id="containtor">
+	<div id="sizebar" class="article solid_border">
+	<h3>侧标签</h3>
+		<from>
+		<div class="line">
+			<p>请输入邮箱地址
+			<input type="text" value="例:2123@qq.com" style="color:#cccccc"/>
+			</p>
+		</div>
+		<div class="line">
+		<p>请输入密码
+		<input type="text" value="密码9位字符" style="color:#cccccc"/>
+		</p>
+		</div>
+		<div class="line">
+			<p>请重复输入密码
+			<input type="text" value="密码9位字符" style="color:#cccccc"/>
+			</p>
+		</div>
+		<div class="line">
+			<label>性别:</label>
+			<label for="male">Male</label>
+			<input type="radio" id="male" name="sex"/>
+			<label for="female">Female</label>
+			<input type="radio" id="female" name="sex"/>
+		</div>
+		<div class="line">
+			<p>city:
+				<select>
+					<option>北京</option>
+					<option>上海</option>
+					<option>广州</option>
+				</select>
+		</p>
+		</div>
+		<div class="line">
+			<label>爱好：</label>
+			<label for="moun">爬山</label>
+			<input type="checkbox" id="moun"/>
+			<label for="sw">游泳</label>
+			<input type="checkbox" id="sw"/>
+			<label for="mj">打麻将</label>
+			<input type="checkbox" id="mj"/>
+		</div>
+		<div class="line">
+			<p>个人简介</p>
+			<textarea rows="5" cols="100" class="textarea_color">你的简介</textarea>
+		</div>
+		<div class="line">
+			<input type="submit" value="确定" class="submit_color"/>
+		</div>
+		</from>
+</div>
+<div id="content">
+	<div class="article solid_border" >
+			<h1>一级标题</h1>
+			<h2>二级标题</h2>
+			<span>作者:Chester 时间:xxxxxxx</span>
+			<p>此处用文字填充   <br/><a href="http://tb.himg.baidu.com/sys/portrait/item/483b893f?t=1391342581">链接</a></p>
+			<img src="http://tb.himg.baidu.com/sys/portrait/item/483b893f?t=1391342581" alt="此属性用文本代替图片">
+		</div>
+
+	<div class="article solid_border">
+		<h1>下一篇一级标题</h1>
+		<h2>二级标题</h2>
+		<span>作者:Chester 时间:xxxxxxx</span>
+		<p>此处用文字填充   <br/><a href="http://tb.himg.baidu.com/sys/portrait/item/483b893f?t=1391342581">链接</a></p>
+		<img src="http://tb.himg.baidu.com/sys/portrait/item/483b893f?t=1391342581" alt="此属性用文本代替图片">
+	</div>
+
+	<div class="article solid_border">
+		<p>Picture</p>
+		<div class="picture"><p>蓝玫</p><img src="http://tb.himg.baidu.com/sys/portrait/item/483b893f?t=1391342581" alt="此属性用文本代替图片">
+		</div>
+		<div class="picture"><p>蓝玫</p><img src="http://tb.himg.baidu.com/sys/portrait/item/483b893f?t=1391342581" alt="此属性用文本代替图片">
+		</div>
+		<div class="picture"><p>蓝玫</p><img src="http://tb.himg.baidu.com/sys/portrait/item/483b893f?t=1391342581" alt="此属性用文本代替图片">
+		</div>
+	</div>
+
+	<div class="article solid_border">
+		<h1>最后一级标题</h1>
+		<h2>二级标题</h2>
+		<p>作者:Chester 时间:xxxxxxx</p>
+		<ol>
+		<li>rank1</li>
+		<li>rank2</li>
+		<li>rank3</li>
+		</ol>
+		<p>表格</p>
+		<table>
+		<tr>
+		<td>姓名</td>
+		<td>姓名</td>
+		<td>姓名</td>
+		<td>姓名</td>
+		</tr>
+		<tr>
+		<td>语文</td>
+		<td>姓名</td>
+		<td>姓名</td>
+		<td>姓名</td>
+		</tr>
+		<tr>
+		<td>数学</td>
+		<td>姓名</td>
+		<td>姓名</td>
+		<td>姓名</td>
+		</tr>
+		<tr>
+		<td>英语</td>
+		<td>姓名</td>
+		<td>姓名</td>
+		<td>姓名</td>
+		</tr>
+		<tr class="tr_color">
+			<td colspan="1">总数</td>
+			<td colspan="3">姓名</td>
+		</tr>
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>

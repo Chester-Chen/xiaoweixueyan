@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #454545;
+	line-height: 1.8;
+}
+
+a, body {
+
+	color: #eee;
+}
+
+a {
+	text-decoration: none;
+}
+
+.sidebar {
+	float: left;
+	width: 20%;
+	position: fixed;
+}
+
+.sidebar > * {
+	padding: 10px 15px;
+}
+
+.sidebar .nav a,
+.sidebar .tag-list a {
+	display: block;
+	padding: 5px;
+	color: #777;
+}
+/*文字颜色过渡*/
+.sidebar .nav a:hover, 
+.sidebar .tag-list a:hover {
+	color: #eee;
+	transition: color 500ms;
+}
+
+.sidebar .nav a {
+	font-weight: 900;
+}
+
+.main {
+	float: right;
+	width: 80%;
+	
+	color: #454545;
+}
+
+.sidebar .header .logo {
+	border: 5px solid white;
+	padding: 10px 20px;
+	font-size: 30px;
+	display: inline-block;
+	margin-bottom: 10px;
+	line-height: 1;
+}
+
+.artical-list, .article {
+	margin-right: 30%;
+	background: #fff;
+	padding: 20px 30px;
+	box-shadow: 0 0 6px black; 
+}
+
+.artical-list .item {
+	margin-bottom: 30px;
+}
+
+.artical-list .item .title, 
+.article .title {
+	font-size: 23px;
+	font-weight: 900;
+	color: #454545;
+}
+
+.artical-list .item .status,
+.article .status {
+	font-size: 14px;
+	color: #ccc;
+}
+
+.artical-list .item > * {
+	margin: 10px 0;
+}
+
+
+
+
