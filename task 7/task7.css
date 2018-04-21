@@ -340,3 +340,285 @@ main .time-txt .select2:checked+.page2 {
 main .time-txt .select3:checked+.page3 {
 	opacity: 1;
 }
+
+/*left part*/
+main .love-live {
+	display: flex;
+	width: 100%;
+}
+main .love-left {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	background: #E8504E;
+}
+main .love-left p {
+	position: relative;
+	color: #fff;
+	font-size: 1.7rem;
+	line-height: 2.3rem;
+	text-align: center;
+}
+main .love-left p span {
+	display: inline-block;
+}
+main .love-left p span:after {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 2rem;
+	border-bottom: 2px solid #fff;
+	margin: 1rem 0 2rem;
+	left: 40%;
+}
+main .love-left p a {
+	display: block;
+	margin-top: 3rem;
+	padding: 0.1rem;
+	width: 100%;
+	height: 2.5rem;
+	color: #fff;
+	border: 1px solid #fff;
+}
+/*mid part*/
+main .love-mid {
+	flex: 1;
+}
+main .love-mid {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+}
+main .love-mid p {
+	position: relative;
+	font-size: 1.7rem;
+	line-height: 2.3rem;
+	text-align: center;
+}
+main .love-mid p span {
+	display: inline-block;
+}
+main .love-mid p span:after {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 2rem;
+	border-bottom: 2px solid grey;
+	margin: 1rem 0 2rem;
+	left: 40%;
+}
+main .love-mid p a {
+	display: block;
+	margin-top: 3rem;
+	padding: 0.1rem;
+	width: 100%;
+	height: 2.5rem;
+	color: #E8504E;
+	border: 1px solid #E8504E;
+}
+/*right part*/
+main .love-right {
+	flex: 1;
+	position: relative;
+}
+main .love-right .triangle {
+	position: absolute;
+	border-style: solid;
+	border-width: 15px;
+	border-color: transparent transparent transparent white;
+	width: 0px;
+	height: 0px;
+	top: 45%;
+}
+
+/*volunteer*/
+main .volunteer {
+	padding: 10rem 10%;
+	width: 100%;
+}
+main .volunteer .join {
+	position: relative;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+main .volunteer .join h1 {
+	font-size: 2rem;
+}
+main .volunteer .join h1:after {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 2rem;
+	border-bottom: 2px solid #E8504E;
+	left: 50%;
+	margin: 0.3rem auto 1rem;
+}
+main .volunteer .join p {
+	color: #ACACAC;
+	margin: 2rem 0;
+}
+main .volunteer .join-content {
+	display: flex;
+	justify-content: space-between;
+}
+main .volunteer .join-content ul {
+	width: 30%;
+	margin-right: 1.5rem;
+}
+main .volunteer .join-content ul li {
+	margin: 2rem 0;
+}
+main .volunteer .join-content ul li h2 {
+	font-size: 1.7rem;
+	color: #656364;
+	margin-bottom: 2rem;
+}
+main .volunteer .join-content ul li p {
+	text-align: justify;
+	color: #9F9D9E;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+}
+main .volunteer .join-content ul li a {
+	color: #9F9D9E;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	float: right;
+	display: block;
+}
+main .volunteer .join-content form {
+	float: left;
+	padding-left: 10%;
+}
+main .volunteer .join-content form label {
+	width: 25rem;
+	height: 3rem;
+	margin: 0.7rem;
+	display: inline-block;
+	background: transparent;
+}
+main .volunteer .join-content form input {
+	width: 25rem;
+	height: 3rem;
+	box-sizing: border-box;
+	padding-left: 8rem;
+	border-style: none;
+	background: #EDEDEF;
+	outline: none;
+}
+main .volunteer .join-content form #name {
+	position: relative;
+}
+main .volunteer .join-content form #age {
+	position: relative;
+}
+main .volunteer .join-content form #qq {
+	position: relative;
+}
+main .volunteer .join-content form #address {
+	position: relative;
+}
+main .volunteer .join-content form label:after {
+	position: absolute;
+	display: inline-block;
+	width: 8rem;
+	height: 3rem;
+	color: #757374;
+	font-size: 1.6rem;
+	top: 0;
+	left: 0;
+	line-height: 3rem;
+	margin-left: 2rem;
+}
+main .volunteer .join-content form #name:after {
+	content: "name: ";
+}
+main .volunteer .join-content form #age:after {
+	content: "age: ";
+}
+main .volunteer .join-content form #qq:after {
+	content: "qq: ";
+}
+main .volunteer .join-content form #address:after {
+	content: "address: ";
+}
+main .volunteer .join-content form #form-text {
+	width: 100%;
+	height: 10rem;
+	margin: 0.7rem;
+	color: #757374;
+	box-sizing: border-box;
+	background: #EDEDEF;
+	border: none;
+	outline: none;
+	overflow: auto;
+	resize: vertical;
+}
+main .volunteer .join-content form .form-btn {
+	width: 100%;
+	height: 3rem;
+	border-style: none;
+	color: #757374;
+	font-weight: bold;
+	margin-left: 0.7rem;
+}
+
+/*footer part*/
+main .contact {
+	width: 100%;
+	padding: 8rem;
+	background: #33363F;
+	color: #fff;
+	text-align: center;
+}
+main .contact h1 {
+	line-height: 2rem;	
+}
+main .contact p {
+	line-height: 2rem;	
+}
+main .contact form {
+	width: 100%;
+} 
+main .contact form label {
+	position: relative;
+	display: inline-block;
+	width: 35rem;
+	height: 2.5rem;
+	margin: 2rem 0;
+}
+main .contact form label input {
+	box-sizing: border-box;
+	width: 35rem;
+	height: 2.5rem;
+	padding-left: 3rem;
+	border: none;
+	outline: none;
+}
+main .contact form label button {
+	position: absolute;
+	width: 5rem;
+	height: 2.5rem;
+	top: 0;
+	right: 0;
+	margin: 0;
+	color: #fff;
+	background: #717179;
+	border: none;
+}
+main .contact .contact-img img {
+	margin: 0 1rem;
+}
+body footer {
+	width: 100%;
+	height: 7rem;
+	padding: 3rem 3rem;
+	background: #30303A;
+	color: #fff;
+}
+body footer section p {
+	display: inline-block;
+}
